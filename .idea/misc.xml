@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/drawable/unbind_device_bg.xml" value="0.49947916666666664" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/drawable/voice_btn_bg_normal.xml" value="0.49947916666666664" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/drawable/voice_btn_bg_selected.xml" value="0.490625" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/drawable/voice_btn_style.xml" value="0.5010416666666667" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/layout/activity_bind_device.xml" value="0.4744791666666667" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/layout/activity_main.xml" value="0.48489583333333336" />
+        <entry key="..\:/silk/xwvoicesdk1/app/src/main/res/layout/activity_recorder.xml" value="0.5380208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

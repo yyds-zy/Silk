@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".view.RecorderActivity">
+
+    <TextView
+        android:id="@+id/sn_tv"
+        android:text=""
+        android:hint="设备名"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/unbind_device_btn"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:backgroundTint="@null"
+        android:text="解绑设备"
+        android:background="@drawable/unbind_device_bg"/>
+
+    <Button
+        android:id="@+id/voiceBtn"
+        android:text="按下录音"
+        android:layout_width="match_parent"
+        app:backgroundTint="@null"
+        android:layout_below="@+id/unbind_device_btn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/voice_btn_bg_normal"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/asr_result_tv"
+        android:text="识别结果："
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/voiceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/asr_tv"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:hint="... ..."
+        android:layout_below="@+id/asr_result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_below="@+id/asr_tv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/response_tv"
+            android:text=""
+            android:hint="... ..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+</RelativeLayout>

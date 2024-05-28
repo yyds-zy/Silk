@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">小微Demo</string>
+    <string name="please_open_permissions">请开通相关权限，否则无法正常使用本应用！</string>
+    <string name="already_auth_success">已授权成功！</string>
+    <string name="auth_success">授权成功！</string>
+    <string name="auth_fail">授权失败！</string>
+    <string name="start_record">按下录音</string>
+    <string name="recording">录音中</string>
+</resources>
